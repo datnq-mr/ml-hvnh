@@ -16,10 +16,10 @@ import streamlit as st
 import pickle
 import pandas as pd
 import os
+import sklearn
 
 
 def predict(namkinhnghiem):    # load mô hình
-    from sklearn.linear_model._base import _preprocess_data
 
     loaded_model = pickle.load(open(r'model_luong.sav','rb'))
     row=[]
