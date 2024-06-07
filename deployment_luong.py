@@ -21,7 +21,7 @@ import sklearn
 
 def predict(namkinhnghiem):    # load mô hình
 
-    loaded_model = pickle.load(open(r'model_luong.sav','rb'))
+    loaded_model = pickle.load(open('model_luong.sav','rb'))
     row=[]
     row.append(namkinhnghiem)
 
