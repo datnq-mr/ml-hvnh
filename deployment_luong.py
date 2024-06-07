@@ -16,7 +16,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import os
-import sklearn
 
 
 def predict(namkinhnghiem):    # load mô hình
